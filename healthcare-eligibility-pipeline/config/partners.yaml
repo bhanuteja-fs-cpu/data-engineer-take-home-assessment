@@ -1,0 +1,24 @@
+partners:
+  acme:
+    partner_code: ACME
+    file_name: acme.txt
+    delimiter: "|"
+    mappings:
+      external_id: MBI
+      first_name: FNAME
+      last_name: LNAME
+      dob: DOB
+      email: EMAIL
+      phone: PHONE
+
+  bettercare:
+    partner_code: BETTERCARE
+    file_name: bettercare.csv
+    delimiter: ","
+    mappings:
+      external_id: subscriber_id
+      first_name: first_name
+      last_name: last_name
+      dob: date_of_birth
+      email: email
+      phone: phone
